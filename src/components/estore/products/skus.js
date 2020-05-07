@@ -13,6 +13,7 @@ const containerStyles = {
 
 const Skus = () => {
   return (
+    // query the data you want to bring in
     <StaticQuery
       query={graphql`
         query SkusForProduct {

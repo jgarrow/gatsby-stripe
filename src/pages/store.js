@@ -13,6 +13,7 @@ export default () => (
   <Layout>
     <h1>Traxxtar Store</h1>
 
+    {/* update the urls for your success and cancel pages */}
     <CartProvider
       stripe={stripePromise}
       successUrl={`${window.location.origin}/page-2/`}
