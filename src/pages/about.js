@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 export default () => {
   return (
     <Layout>
-      <h2>Welcome to Traxxtar</h2>
+      <h2>About Traxxtar</h2>
     </Layout>
   )
 }
